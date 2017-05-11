@@ -1,6 +1,9 @@
+import ddf.minim.*;
+import ddf.minim.ugens.*;
+
 class Note {
-  import ddf.minim.*;
-  import ddf.minim.ugens.*;
+  
+  
   
   
   Minim            minim;
@@ -8,7 +11,7 @@ class Note {
   AudioPlayer      C3,Db3,D3,Eb3,E3,F3,Gb3,G3,Ab3,A3,Bb3,B3;  //Octave 2
   AudioPlayer      C4,Db4,D4,Eb4,E4,F4,Gb4,G4,Ab4,A4,Bb4,B4;  //Octave 3
   
-    // variable son
+  // variable son
   minim = new Minim(this);
   
   // Fichiers Audio par notes

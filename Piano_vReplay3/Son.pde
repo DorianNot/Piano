@@ -1,7 +1,10 @@
+import ddf.minim.*;
+import ddf.minim.ugens.*;
+import java.util.*;
+
+
 class Son {
-  import ddf.minim.*;
-  import ddf.minim.ugens.*;
-  import java.util.*;
+  
   
   Note note;
   long start,stop;
